@@ -3,10 +3,11 @@ Equal Height, Product  grid content Equal Height, jquery product grid
 
 
 $(window).on('load resize ready', function() {
+
  getEqualHeightGrid();
  setTimeout(function(){
    getEqualHeightGrid();
- }, 1000);
+ }, 1000);/n
  setTimeout(function(){
    getEqualHeightGrid();
  }, 2000);
