@@ -900,3 +900,14 @@ label.outStock span.name{text-decoration:line-through}
 .productPage div#fancy_outer{height:auto!important}
 /*.inner {max-width: 90%;margin-left: auto;margin-right: auto;}*/
 body{padding: 50px ;}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+	.ProductList li{width:33.33%;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.ProductList li{width:50%;}
+}
+@media only screen and (max-width: 479px) {
+	.ProductList li{width:100%;}
+}
