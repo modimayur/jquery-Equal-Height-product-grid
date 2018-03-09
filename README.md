@@ -3,24 +3,23 @@ Equal Height, Product  grid content Equal Height, jquery product grid
 
 
 $(window).on('load resize ready', function() {
-
  getEqualHeightGrid();
  setTimeout(function(){
-   getEqualHeightGrid();
- }, 1000);/n
+ getEqualHeightGrid();
+ }, 1000);
  setTimeout(function(){
-   getEqualHeightGrid();
+ getEqualHeightGrid();
  }, 2000);
  setTimeout(function(){
-   getEqualHeightGrid();
+ getEqualHeightGrid();
  }, 3000);
  setTimeout(function(){
-   getEqualHeightGrid();
+ getEqualHeightGrid();
  }, 4000);
  setTimeout(function(){
-   getEqualHeightGrid();
+ getEqualHeightGrid();
  }, 5000);
-});
-function getEqualHeightGrid() {
+ });
+ function getEqualHeightGrid() {
  $('.grid--view-items .grid-view-item').responsiveEqualHeightGrid();
  }
