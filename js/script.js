@@ -17,5 +17,6 @@ $(window).on('load resize ready', function() {
  }, 5000);
 });
 function getEqualHeightGrid() {
- $('.grid--view-items .grid-view-item').responsiveEqualHeightGrid();
+ $('.grid-iteam').responsiveEqualHeightGrid();
+ $('.grid-iteam .pname').responsiveEqualHeightGrid();
 }
